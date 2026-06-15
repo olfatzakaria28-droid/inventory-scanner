@@ -24,8 +24,8 @@ new Html5Qrcode("reader");
 html5QrCode.start(
 { facingMode: "environment" },
 {
-fps:10,
-qrbox:250
+fps:20,
+qrbox:200
 },
 async(code)=>{
 
