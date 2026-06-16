@@ -1,5 +1,5 @@
 const URL_APPS_SCRIPT =
-"https://script.google.com/macros/s/AKfycbzADvqDZqcUnIMJVP0M3NbnczJKIjCU-PnhRO38jh9aCTynLlWbpyAMMPksoyIEQI4oaQ/exec";
+"https://script.google.com/macros/s/AKfycbyL4hhlJ8IAOHlT7ztnOa_v-9lXIX87JeiLpA2VMaQb_YDZL3T1uwihfI6JkzpyrUojFQ/exec";
 
 let tipe = "";
 let barcode = "";
@@ -24,8 +24,8 @@ new Html5Qrcode("reader");
 html5QrCode.start(
 { facingMode: "environment" },
 {
-fps:20,
-qrbox:200
+fps:10,
+qrbox:250
 },
 async(code)=>{
 
